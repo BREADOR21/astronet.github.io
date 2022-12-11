@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ASTRONET ANASAYFA</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="hero">
+
+        <video autoplay loop muted>
+          <source src="Uzay - 7980 (1).mp4" type="video/mp4">
+        </source></video>
+    
+        <div class="content">
+          <div class="container">
+            <h1><span id="ASTRO_NET">ASTRONET</span></h1>
+            <p>UZAY HAKKINDA HERŞEY</p>
+            <div class="hero-image">
+                <div class="hero-text">
+                    <a href="https://tua.gov.tr/tr" target="_blank" >
+                    <img src="tua-logo-tr (1).svg" height="150" width="200" align="right">
+                    </a>
+                   
+                
+                </div>
+              </div>
+          </div>
+        </div>
+    
+    </div>
+   <br><br><br><br><br><br>
+   <br><br><br>
+   <br>
+  
+    <h1> DÜNYA</h1>  
+       
+        
+    <video autoplay loop muted >
+        <source src="desktop_light.mp4" type="video/mp4"> 
+      </source></video>
+      <p>Dünya Hakkında Önemli Bilgiler
+
+        Kütlesi:  4,867,320,000,000,000 milyar kilogram (Dünyanın 0.815  kadarı).
+        Ekvator çapı:  12104  kilometre.
+        Kutup çapı:  12104  kilometre.
+        Ekvatoral Çevresi: 38025 kilometre.
+        Gezegenin yerçekiminden kurtulmak için gereken hız: 10,36 km/s
+        Yörüngedeki hızı: 35,02 km/s
+        Doğal uyduları: 0
+        Yörünge uzaklığı: 108,209,475 km (0.73 AU)
+        Dünyadan uzaklığı: 41,400,000 km (0.28 AU)
+        Yörünge tamamlama süresi: 224,7 Dünya günü
+        Yüzey sıcaklığı:  462 ° C
+        Gezegen hakkında ilk kayıtlar: MÖ 17. yüzyıl, Babil astronotları tarafından<a href="file:///C:/Users/Talha/Desktop/uzaysitesi%C3%B6dev/d%C3%BCnyabilgi.html" target="_blank">Detaylı Bilgi</a></p>
+      
+      <h1> MARS</h1>
+      <video autoplay loop muted >
+          <source src="mars.mp4" type="video/mp4">
+        </source></video>
+    <p>Mars (eski Türkçede Bakır Sokım, Merih), Güneş Sistemi'nin Güneş'ten itibaren dördüncü gezegeni. Roma mitolojisindeki savaş tanrısı Mars'a ithafen adlandırılmıştır. Yüzeyindeki yaygın demir oksitten dolayı kızılımsı bir görünüme sahip olduğu için "Kızıl Gezegen" de denir.</p>
+    <a href="file:///C:/Users/Talha/Desktop/uzaysitesi%C3%B6dev/marsbilgi.html" target="_blank">Detaylı Bilgi</a></p>
+    
+    <H1>JÜPİTER</H1>
+    <video autoplay loop muted >
+        <source src="jupiter.mp4" type="video/mp4">
+      </source></video>
+  <p>Jüpiter veya Erendiz, Güneş Sistemi'nin en büyük gezegenidir. Güneş'ten uzaklığa göre beşinci sırada yer alır. Adını Roma mitolojisindeki tanrıların en büyüğü olan Jüpiter'den alır. Büyük ölçüde hidrojen ve helyumdan oluşmakta ve gaz devi sınıfına girmektedir</p>
+  <a href="file:///C:/Users/Talha/Desktop/uzaysitesi%C3%B6dev/j%C3%BCpiter.html" target="_blank">Detaylı Bilgi</a></p>
+
+
+  <h1>Neptün</h1>
+      <video autoplay loop muted >
+          <source src="neptün.mp4" type="video/mp4">
+        </source></video>
+    <p>Güneş Sistemi’ndeki en soğuk gezegen olan Neptün’ün ortalama sıcaklığı eksi 210 derecedir. Uranüs ile neredeyse aynı boyutlarda yani 49.530 kilometre çapında olan Neptün, Dünya’da olsa yaşamı sona erdirecek kadar güçlü rüzgarlarıyla biliniyor. Neptün’ün Güneş’e olan uzaklığı Dünya’dan 30 kat daha fazla.
+
+        Neptün’ü görsel olarak tespit etmemiz uzun zaman aldı ancak bundan çok daha önce matematiksel hesaplamalar sonucunda bu gezegenin var olduğu tespit edilmişti. Bu hesaplamalar sayesinde Neptün bulundu diyebiliriz. Neptün’ün çekirdeği, Dünya çekirdeğinden 17 kat daha büyüktür.</p>
+    <a href="file:///C:/Users/Talha/Desktop/uzaysitesi%C3%B6dev/nept%C3%BCnbilgi.html" target="_blank">Detaylı Bilgi</a></p>
+
+    <a href="#top" id="yukari-cik" title="Yukarı Çık"></a>
+ 
+<script>
+jQuery(document).ready(function($){
+    $(window).scroll(function(){
+        if ($(this).scrollTop() < 850) {
+            $('#yukari-cik') .fadeOut();
+        } else {
+            $('#yukari-cik') .fadeIn();
+        }
+    });
+    $('#yukari-cik').on('click', function(){
+        $('html, body').animate({scrollTop:0}, 'fast');
+        return false;
+        });
+});
+</script>
+
+
+</body>
+</html>
